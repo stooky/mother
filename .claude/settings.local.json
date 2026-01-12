@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(nslookup:*)"
+      "Bash(nslookup:*)",
+      "Bash(ssh:*)",
+      "Bash(rsync:*)",
+      "Bash(tar:*)",
+      "Bash(scp:*)"
     ],
     "deny": [],
     "ask": []
