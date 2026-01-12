@@ -1,0 +1,99 @@
+# =====================================================
+# Site Configuration
+# =====================================================
+# Edit this file to customize your site.
+# Changes require a rebuild to take effect.
+# =====================================================
+
+# -----------------------------------------------------
+# Site Metadata & Branding
+# -----------------------------------------------------
+site:
+  name: "My Site"
+  tagline: "Your tagline here"
+  description: "A brief description of your site for SEO purposes."
+  url: "https://mysite.crkid.com"
+  defaultOgImage: "/images/og-default.png"
+  themeColor: "#3b82f6"
+
+# -----------------------------------------------------
+# Contact Information
+# -----------------------------------------------------
+contact:
+  email: "hello@example.com"
+  phone: "(555) 123-4567"
+  address:
+    street: "123 Main Street"
+    city: "Your City"
+    state: "CA"
+    zip: "90210"
+    country: "USA"
+
+# -----------------------------------------------------
+# Social Media Links
+# Leave empty string "" for unused platforms
+# -----------------------------------------------------
+social:
+  facebook: ""
+  instagram: ""
+  twitter: ""
+  linkedin: ""
+  youtube: ""
+
+# -----------------------------------------------------
+# Business Hours
+# Use "Closed" for closed days
+# -----------------------------------------------------
+hours:
+  monday: "9:00 AM - 5:00 PM"
+  tuesday: "9:00 AM - 5:00 PM"
+  wednesday: "9:00 AM - 5:00 PM"
+  thursday: "9:00 AM - 5:00 PM"
+  friday: "9:00 AM - 5:00 PM"
+  saturday: "Closed"
+  sunday: "Closed"
+
+# Schema.org structured data hours (for SEO)
+# Format: "DayAbbrev HH:MM-HH:MM" (24hr format)
+schemaHours:
+  - "Mo-Fr 09:00-17:00"
+
+# -----------------------------------------------------
+# Location / Geo Coordinates (for structured data)
+# -----------------------------------------------------
+geo:
+  latitude: 34.0522
+  longitude: -118.2437
+  priceRange: "$$"
+  timezone: "America/Los_Angeles"
+
+# -----------------------------------------------------
+# Google Integrations
+# -----------------------------------------------------
+google:
+  analyticsId: ""  # Leave empty to disable
+  mapsEmbedUrl: ""
+
+# -----------------------------------------------------
+# Navigation
+# -----------------------------------------------------
+navigation:
+  main:
+    - name: "Home"
+      href: "/"
+    - name: "About"
+      href: "/about"
+    - name: "Contact"
+      href: "/contact"
+
+  footer:
+    company:
+      - name: "About"
+        href: "/about"
+      - name: "Contact"
+        href: "/contact"
+    legal:
+      - name: "Privacy Policy"
+        href: "/privacy"
+      - name: "Terms & Conditions"
+        href: "/terms"
